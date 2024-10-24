@@ -1,0 +1,12 @@
+#tinyuser .dropdown-label{
+    font-family: serif !important;
+    font-size: large !important;
+}
+
+#tinyuser .tiny-dropdown{
+    margin-top: 5px;
+}
+
+#tinyuser span{
+    padding-left: 3px;
+}

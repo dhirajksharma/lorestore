@@ -1,0 +1,10 @@
+#tinynavbar .dropdown-label{
+    font-family: serif !important;
+    font-size: medium !important;
+  }
+  
+#tinynavbar .dropdown-panel{
+    z-index: 2;
+    left: unset;
+    right:0;
+}

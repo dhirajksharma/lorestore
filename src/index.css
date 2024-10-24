@@ -1,0 +1,50 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 480px){
+  .Toastify__toast {
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+}
+
+.prd_display{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(130px, 1fr));
+  grid-auto-rows: max-content;
+  justify-items: start;
+}
+
+@media (min-width:639px){
+  .prd_display{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+      grid-auto-rows: max-content;
+      width: 70vw;
+  }
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+:root{
+    --toastify-color-success: #f7735c !important;
+    --toastify-color-warning: #ffcc00 !important;
+    --toastify-color-error: #3b5c64 !important;
+}
+
+.Toastify__toast-body {
+  font-family: 'Montserrat';
+}
